@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="IMG/BANNER3.png" alt="Logo">
+        </header>
+        <section>
+        <nav>
+            <a href="#position"><img src="IMG/Position.png" alt=""></a>
+            <a href="#animacion"><img src="IMG/animacion.png" alt=""></a>
+            <a href="#ref"><img src="IMG/REF.png" alt=""></a>
+
+        </nav>
+
+
+    
+
+            <div class="Arriba">
+                <h1 id="position"><img src="IMG/position1.png" alt="position"></h1>
+                
+            
+            </div>
+
+            <div class="Izquierda">
+                <h2>Position
+                </h2>
+                <p>
+                    <li><b>Position: relative;</b>
+Un elemento con position: relative; esta posicionado en la relación a su posición normal. El posicionamiento relativo desplaza un elemento respecto de su posición original establecida mediante el posicionamiento normal.
+El desplazamiento de la caja se controla con las propiedades top, bottom, left, right y z-index. Los demás elementos no ocuparan el espacio que deja el elemento desplazado. </li>
+                    <li><b>Position:absolute;</b>
+El posicionamiento absoluto se emplea para establecer de forma exacta la posición en la que se muestra la caja de un elemento.
+La nueva posición del elemento se indics mediante las propiedades top, bottom, left, right y z-index, que en este caso dependen del posicionamiento del elemento contenedor cuando tiene una posición diferente a static.</li>
+ 
+
+                </p>
+            </div>
+
+            <div class="Derecha">
+                <h2>Position</h2>
+                <li><b>Position:fixed;</b><b></b>
+                    Un elemento con position: fixed; esta ubicado en relación con la ventana grafica, lo que significa que siempre permanece en el mismo lugar, incluso si la pagina se desplaza.
+                    Las propiedades: top, bottom, left y right se utilizan para posicionar el elemento. Un elemento fijo no deja un espacio en la pagina donde normalmente se ubicará.</li>
+                                        <li><b>Position:sticky;</b>
+                    Un elemento con position sticky; se posiciona en función de la posición de desplazamiento del usuario. Un elemento sticky alterna entre relativo y fijo, dependiendo de la posición de desplazamiento. Se posiciona de forma relativa hasta que se encuentra una posición dedesplazamiento dada en la ventana grafica, luego se “pega” en su lugar (como position:fixed)</li>
+
+                </p>
+                <img src="" alt=""> 
+            </div>
+
+            <div class="Abajo">
+                <h2>Resumen</h2>
+                <p>
+                </p>
+            </div>
+
+            
+
+    </section>
+
+    <section>
+
+        <div class="Arriba">
+            <h1 id="animacion">
+                <img src="IMG/animacion1.png" alt="display">
+            </h1>
+
+        </div>
+
+        <div class="Izquierda">
+            <h2>Animación</h2>
+<li><b>Animation-duration:</b>
+Especifica cuanto tiempo debe transcurrir una animacion para completar un ciclo
+</li>
+<li><b>Animation-iteration-count:</b>
+Especifica un retrado para el inicio de la animacion y se expresa en segundos
+</li>
+<li><b>Animation-play-state:</b>
+Especifica si la animacion se esta ejecutando o esta en pausa
+</li>
+<li><b>Animation-timing-function:</b>
+Especifica la curva de velocidad de la animacion 
+</li>
+        </div>
+
+        <div class="Derecha">
+ <li><b>Linear:</b>
+    Especifica una animacion con la misma velocidad de principio a fin
+</li>
+ <li><b>Ease:</b>
+Especifica una animación con un inicio lento, luego rapido y luego termina lento</li>
+ <li><b>Ease-in:</b>
+Especifica una animacion con ciclo lento</li>
+ <li><b>Ease-out:</b>
+Especifica una animacion con un final lento
+</li>
+ <li><b>Ease-in-out:</b>
+Especifica una animacion con inicio y final lento
+</li>
+ <li><b>Cubic-bezier:</b>
+Permite definir sus propios valores en una funcion 
+</li>
+ <li><b>None:</b>
+La animacion no aplicara ningun estilo antes y despues 
+</li>
+ <li><b>Forwards:</b>
+El elemento retendra los valores de estilo establecidos por el ultimo fotograma clave 
+</li>
+ <li><b>Backwards:</b>
+El elemento obtendra los valores de estilo establecidos por el primer fotograma clave
+</li>
+ <li><b>Both:</b>
+La animacion seguira las reglas tanto para adelante como para atras 
+</li>
+ <li><b>Animation:</b>
+Propiedad rapida para configurar todas las propiedades de la animacion
+</li>
+           
+        </div>
+
+        <div class="Abajo">
+            <h2>Resumen</h2>
+            <p></p>
+        </div>
+
+        
+
+</section>
+
+<section>
+
+    <div class="Arriba">
+        <h1 id="ref"><img src="IMG/Multimedia (3).png" alt="css3"></h1>
+
+    </div>
+
+    <div class="Izquierda">
+        <h2>Pseudoclases</h2>
+        <li><b>nth-child</b>
+        La pseudoclase nth-child() nos permite encontar un hijo especifico
+        </li>
+        <li><b>nth-child (odd) :nth-child (even)</b>
+        Las palabras clave odd y even se usan para seleccionar elementos con base en su posicion en la secuencia de hijos
+        </li>
+        <li><b>first-child</b>
+        Referencia solo el primer hijo
+        </li>
+        <li><b>only-child</b>
+        Afecta un elemento siempre y cuando sea el unico hijo disponible
+        </li>
+        <li><b>not()</b>
+        Declara una excepcion, los estilos en la regla creada con esta pseudoclase seran asignados a todo elementos excepto aquellos incluidos en la referencia
+        </li>
+
+    </div>
+
+    <div class="Derecha">
+        <li><b>Selector de atributo:</b>
+            Un selector de atributo en CSS selecciona elementos HTML en funcion de la presencia o el valor de uno de sus atributos.
+            </li>
+            <li><b>Atributo^=</b>
+            Una regla con el selector ^= selecciona elementos cuyo atributo comienza con un valor especifico
+            </li>
+            <li><b>Atributo$=</b>
+            Una regla con el selector $= sleecciona elementos cuyo atributo termina con un valor especifico
+            </li>
+            <li><b>Atributo*=</b>
+            Una regla con el selector *= selecciona elementos cuyo atributo contiene uan cadena especifica en cualquier posicon 
+            </li>
+            <li><b>Selectores de relacion:</b>
+            Permiten seleccionar elementos basados en su relacion con otros elementos dentro del documento
+            </li>
+            <li><b>Selector de hijos directos ( < )</b>
+            Selecciona elementos que son hijos inmediatos de un elemento padre
+            </li>
+            <li><b>Selector de hermanos adyacentes (+) </b>
+            Selecciona un elemento que es hermano inmediato
+            </li>
+            <li><b>Selector de hermanos generales (~)</b>
+            Selecciona todos los elementos que son hermanos de un elemento anterior,
+            </li>
+    </div>
+
+    <div class="Abajo">
+        <h2>Resumen</h2>
+    
+        
+    </div>
+
+    
+
+</section>
+
+
+
+
+
+    
+
+</section>
+
+
+
+
+   
+
+
+
+    </main>
+
+</body>
+
+</html>
